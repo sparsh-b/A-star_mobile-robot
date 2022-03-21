@@ -3,7 +3,8 @@
 - This is done in conjunction with Aneesh Dandime as part of Project3 of the course ENPM661 at University of Maryland, College Park.
 
 ## To run the code use the following command:
-`python3 A-star-SparshBhogavilli-AneeshDandime.py --src_x=<src_x> --src_y=<source_y> --dst_x=<destination_x> --dst_y=<destination_y> --name=<name_of_video>`
+- `python3 A-star-SparshBhogavilli-AneeshDandime.py --src_x=<src_x> --src_y=<source_y> --dst_x=<destination_x> --dst_y=<destination_y> --name=<name_of_video> -c= -r= -s= -t=<angle_b/w_adjacent_orientations> -n=<number_of_orientations_possible>`
+- To get help regarding command line arguments execute: `python3 A-star-SparshBhogavilli-AneeshDandime.py -h`
 
 ## For example:
 `python3 A-star-SparshBhogavilli-AneeshDandime.py --src_x=0.0 --src_y=0.0 --dst_x=400.0 --dst_y=250.0 --name=path`

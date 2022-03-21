@@ -39,7 +39,7 @@ class Arena:
         self.obstacles.append(obs)
         self.__build_graph()
     
-    def shortest_path(self, p: Point, q: Point, name: str) -> None:
+    def shortest_path(self, p: Point, q: Point, name: str, params: List[float]) -> None:
         width = len(self.grid)
         height = len(self.grid[0])
 
@@ -51,6 +51,8 @@ class Arena:
             raise ValueError(f'The point {p} is inside an obstacle!')
         if self.grid[int(q.x)][int(q.y)][1] == 0:
             raise ValueError(f'The point {q} is inside an obstacle!')
+        if params[2] < 1 or params[2] > 10:
+            raise ValueError(f'A step_size of {params[2]} is not acceptable! Please enter a value in the range [1, 10].')
 
         self.graph.shortest_path(p, q, name)
 
