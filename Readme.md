@@ -1,4 +1,5 @@
-# Path planning for a mobile robot(non-zero radius) using A-star algorithm
+# Path planning using A-star algorithm
+- This repo generates Path for a mobile robot(non-zero radius) through a map containing obstacles.
 - This is done as part of Project3 of the course ENPM661 at University of Maryland, College Park
 
 ## To run the code use the following commands:
