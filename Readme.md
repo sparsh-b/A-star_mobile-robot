@@ -1,10 +1,8 @@
 # Path planning using A-star algorithm
 - This repo generates Path for a mobile robot(non-zero radius) through a map containing obstacles.
-- This is done as part of Project3 of the course ENPM661 at University of Maryland, College Park
+- This is done as part of Project3 of the course ENPM661 at University of Maryland, College Park in conjunction with Aneesh Dandime.
 
-## To run the code use the following commands:
-`cd Project2-Aneesh-Dandime`
-
+## To run the code use the following command:
 `python3 A-star-SparshBhogavilli-AneeshDandime.py --src_x=<src_x> --src_y=<source_y> --dst_x=<destination_x> --dst_y=<destination_y> --name=<name_of_video>`
 
 ## For example:
